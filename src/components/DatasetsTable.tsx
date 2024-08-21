@@ -42,6 +42,10 @@ const columns: ColumnDef<Data>[] = [
     header: "Projects",
   },
   {
+    accessorKey: "uploaded_by",
+    header: "Uploaded By",
+  },
+  {
     accessorKey: "date_uploaded",
     header: "Date Uploaded",
   },
@@ -49,7 +53,9 @@ const columns: ColumnDef<Data>[] = [
 
 export default function DatasetsTable() {
   const [searchInput, setSearchInput] = useState("")
-  const [sorting, setSorting] = useState<SortingState>([])
+  const [sorting, setSorting] = useState<SortingState>([
+    { id: "date_uploaded", desc: true }, // Initial sorting by date_uploaded in descending order
+  ])
 
   const debouncedSearchInput = useDebounce(searchInput, 300)
 

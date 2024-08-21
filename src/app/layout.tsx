@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`h-screen w-screen p-8 bg-slate-950 ${globalFont.className}`}>
+      <body className={`h-screen w-screen p-8 bg-slate-200 ${globalFont.className}`}>
         {children}
       </body>
     </html>

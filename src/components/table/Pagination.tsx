@@ -7,24 +7,26 @@ interface PaginationProps<T> {
 
 const Pagination = <T,>({ table }: PaginationProps<T>) => {
   return (
-    <div className="flex items-center justify-between mt-4">
-      <button
-        className="px-4 py-2 border rounded disabled:opacity-50"
-        onClick={() => table.previousPage()}
-        disabled={!table.getCanPreviousPage()}
-      >
-        Previous
-      </button>
-      <span className="text-sm">
+    <div className="flex text-xs items-center justify-between mt-4">
+      <span>
         Page {table.getState().pagination.pageIndex + 1} of {table.getPageCount()}
       </span>
-      <button
-        className="px-4 py-2 border rounded disabled:opacity-50"
-        onClick={() => table.nextPage()}
-        disabled={!table.getCanNextPage()}
-      >
-        Next
-      </button>
+      <div className="flex flex-row items-center gap-2">
+        <button
+          className="px-4 py-1 border border-blue-700 disabled:border-blue-700/50 rounded disabled:opacity-50"
+          onClick={() => table.previousPage()}
+          disabled={!table.getCanPreviousPage()}
+        >
+          Previous
+        </button>
+        <button
+          className="px-4 py-1 border border-blue-700 disabled:border-blue-700/50 rounded disabled:opacity-50"
+          onClick={() => table.nextPage()}
+          disabled={!table.getCanNextPage()}
+        >
+          Next
+        </button>
+      </div>
     </div>
   )
 }
