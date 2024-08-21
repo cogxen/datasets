@@ -44,7 +44,7 @@ const TableRow = <T,>({ row }: TableRowProps<T>) => {
                     rel="noopener noreferrer"
                     className="flex flex-row items-center gap-1 text-blue-700"
                   >
-                    <Link2 className="h-4 w-4" />
+                    <Link2 className="h-3 w-3" />
                     <span>{value.platform}</span>
                   </Link>
                 ) : null
