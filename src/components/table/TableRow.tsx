@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Row } from "@tanstack/react-table"
 
 /** Icons */
-import { Link2, ChevronDown, ChevronUp } from "lucide-react"
+import { Link2, ChevronDown, ChevronUp, Globe } from "lucide-react"
 
 interface TableRowProps<T> {
   row: Row<T>
@@ -66,8 +66,9 @@ const TableRow = <T,>({ row }: TableRowProps<T>) => {
                     href={value.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-700"
+                    className="flex flex-row items-center gap-1 text-blue-700"
                   >
+                    <Globe className="h-3 w-3" />
                     {value.name}
                   </Link>
                 ) : (
