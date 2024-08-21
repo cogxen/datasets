@@ -13,6 +13,13 @@ export type Data = {
   projects: {
     name: string
     link: string
+    contributors: {
+      name: string
+      link: string
+    }[]
   }[]
   date_uploaded: string
+  uploaded_by: {
+    name: string
+  }[]
 }
