@@ -1,0 +1,49 @@
+{
+  "datasets": [
+    {
+      "id": 1,
+      "name": "30 Types of Plants",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/30-types-of-plants",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "date_uploaded": "2024-08-14"
+    },
+    {
+      "id": 2,
+      "name": "80-cereals",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/80-cereals",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "date_uploaded": "2024-08-09"
+    },
+    {
+      "id": 3,
+      "name": "Ad Campaign Election Spending",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/ad-campaign-election-spending",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "date_uploaded": "2024-07-31"
+    }
+  ]
+}
