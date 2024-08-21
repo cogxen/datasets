@@ -7,6 +7,7 @@ import {
   getCoreRowModel,
   getFilteredRowModel,
   getSortedRowModel,
+  getPaginationRowModel,
   SortingState,
 } from "@tanstack/react-table"
 /** Custom Hooks */
@@ -53,9 +54,11 @@ const columns: ColumnDef<Data>[] = [
 
 export default function DatasetsTable() {
   const [searchInput, setSearchInput] = useState("")
-  const [sorting, setSorting] = useState<SortingState>([
-    { id: "date_uploaded", desc: true }, // Initial sorting by date_uploaded in descending order
-  ])
+  const [sorting, setSorting] = useState<SortingState>([{ id: "date_uploaded", desc: true }])
+  const [pagination, setPagination] = useState({
+    pageIndex: 0,
+    pageSize: 10,
+  })
 
   const debouncedSearchInput = useDebounce(searchInput, 300)
 
@@ -72,11 +75,14 @@ export default function DatasetsTable() {
     columns,
     state: {
       sorting,
+      pagination,
     },
     onSortingChange: setSorting,
+    onPaginationChange: setPagination,
     getCoreRowModel: getCoreRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
     getSortedRowModel: getSortedRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
   })
 
   return (
