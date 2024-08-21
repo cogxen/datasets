@@ -128,12 +128,156 @@
           "name": "Community Crime",
           "link": "https://github.com/cogxen/notebooks/blob/main/community-crime/report.ipynb",
           "contributors": [
-            { "name": "Noey Ignacio", "link": "https://www.linkedin.com/in/noeyislearning/" }
+            { "name": "@noeyislearning", "link": "https://www.linkedin.com/in/noeyislearning/" }
           ]
         }
       ],
       "format": [".csv"],
       "date_uploaded": "2024-08-10",
+      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+    },
+    {
+      "id": 9,
+      "name": "Cost of Living Index by Country",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/cost-of-living-index-by-country",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/"
+      },
+      "projects": [
+        {
+          "name": "Cost of Living Index by Country",
+          "link": "https://github.com/cogxen/notebooks/blob/main/cost-of-living-index-by-country/report.ipynb",
+          "contributors": [
+            { "name": "@noeyislearning", "link": "https://www.linkedin.com/in/noeyislearning/" }
+          ]
+        }
+      ],
+      "format": [".csv"],
+      "date_uploaded": "2024-08-06",
+      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+    },
+    {
+      "id": 10,
+      "name": "Credit Scores",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/credit-scores",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "date_uploaded": "2024-08-09",
+      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+    },
+    {
+      "id": 11,
+      "name": "Customer Behaviour",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/customer-behaviour",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "date_uploaded": "2024-08-10",
+      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+    },
+    {
+      "id": 12,
+      "name": "Delhi Climate Weather",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/daily-climate-weather",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "date_uploaded": "2024-08-09",
+      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+    },
+    {
+      "id": 13,
+      "name": "Delhi Metro Operations",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/delhi-metro-operations",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "date_uploaded": "2024-08-10",
+      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+    },
+    {
+      "id": 14,
+      "name": "Delivery Orders",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/delivery-orders",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "date_uploaded": "2024-08-10",
+      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+    },
+    {
+      "id": 15,
+      "name": "Demand and Supply",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/demand-and-supply",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "date_uploaded": "2024-07-03",
+      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+    },
+    {
+      "id": 16,
+      "name": "Dengue Cases Region Based",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/dengue-cases-region-based",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/"
+      },
+      "projects": [
+        {
+          "name": "Impact of Meteorological Conditions on Dengue Case Prevalence",
+          "link": "https://github.com/cogxen/notebooks/blob/main/meteorological-conditions-on-dengue-cases/report.ipynb",
+          "contributors": [
+            { "name": "@noeyislearning", "link": "https://www.linkedin.com/in/noeyislearning/" }
+          ]
+        }
+      ],
+      "format": [".csv"],
+      "date_uploaded": "2024-08-15",
       "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
     }
   ]
