@@ -3,6 +3,7 @@ import React from "react"
 interface SearchInputProps {
   value: string
   onChange: (value: string) => void
+  totalDatasets: number
 }
 
 interface StatusIndicatorProps {
@@ -23,7 +24,7 @@ const StatusIndicator: React.FC<StatusIndicatorProps> = ({ color, label, textCol
   </div>
 )
 
-const SearchInput: React.FC<SearchInputProps> = ({ value, onChange }) => {
+const SearchInput: React.FC<SearchInputProps> = ({ value, onChange, totalDatasets }) => {
   return (
     <div className="mb-4 w-full flex flex-row items-center justify-between text-xs">
       <input
@@ -33,10 +34,13 @@ const SearchInput: React.FC<SearchInputProps> = ({ value, onChange }) => {
         placeholder="Search a dataset"
         className="px-4 py-2 border border-gray-300 rounded placeholder:text-slate-600 text-slate-900"
       />
-      <div className="flex flex-row gap-2 items-center">
-        <StatusIndicator color="blue" label="Latest" />
-        <StatusIndicator color="orange" label="Outdated" textColor="orange" />
-        <StatusIndicator color="emerald" label="Updated" textColor="emerald" />
+      <div className="flex flex-col items-end">
+        <div className="flex flex-row gap-2 items-center">
+          <StatusIndicator color="blue" label="Latest" />
+          <StatusIndicator color="orange" label="Outdated" textColor="orange" />
+          <StatusIndicator color="emerald" label="Updated" textColor="emerald" />
+        </div>
+        <div>Total datasets ({totalDatasets})</div>
       </div>
     </div>
   )

@@ -90,7 +90,11 @@ export default function DatasetsTable() {
 
   return (
     <div className="p-4">
-      <SearchInput value={searchInput} onChange={setSearchInput} />
+      <SearchInput
+        value={searchInput}
+        onChange={setSearchInput}
+        totalDatasets={filteredData.length}
+      />
       <DataTable table={table} />
       <Pagination table={table} />
     </div>
