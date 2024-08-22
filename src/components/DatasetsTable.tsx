@@ -57,7 +57,7 @@ export default function DatasetsTable() {
   const [sorting, setSorting] = useState<SortingState>([{ id: "date_uploaded", desc: true }])
   const [pagination, setPagination] = useState({
     pageIndex: 0,
-    pageSize: 10,
+    pageSize: 15,
   })
 
   const debouncedSearchInput = useDebounce(searchInput, 300)
