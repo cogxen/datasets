@@ -1,7 +1,21 @@
 {
   "datasets": [
     {
-      "id": 1,
+      "name": "Paris Olympics 2024",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/olympics-2024-paris",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-19",
+      "updated_at": "2024-08-19"
+    },
+    {
       "name": "30 Types of Plants",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/30-types-of-plants",
@@ -13,11 +27,10 @@
       },
       "projects": [],
       "format": [".csv"],
-      "date_uploaded": "2024-08-14",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-08-14",
+      "updated_at": "2024-08-14"
     },
     {
-      "id": 2,
       "name": "80-cereals",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/80-cereals",
@@ -29,11 +42,10 @@
       },
       "projects": [],
       "format": [".csv"],
-      "date_uploaded": "2024-08-09",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
     },
     {
-      "id": 3,
       "name": "Ad Campaign Election Spending",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/ad-campaign-election-spending",
@@ -45,11 +57,10 @@
       },
       "projects": [],
       "format": [".csv"],
-      "date_uploaded": "2024-07-31",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-07-31",
+      "updated_at": "2024-07-31"
     },
     {
-      "id": 4,
       "name": "Addidas Sales",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/adidas-sales",
@@ -61,11 +72,10 @@
       },
       "projects": [],
       "format": [".csv"],
-      "date_uploaded": "2024-08-09",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
     },
     {
-      "id": 5,
       "name": "Books",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/books",
@@ -77,11 +87,10 @@
       },
       "projects": [],
       "format": [".csv"],
-      "date_uploaded": "2024-08-09",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
     },
     {
-      "id": 6,
       "name": "Bounce Rate",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/bounce-rate",
@@ -93,11 +102,10 @@
       },
       "projects": [],
       "format": [".csv"],
-      "date_uploaded": "2024-08-10",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-08-10",
+      "updated_at": "2024-08-10"
     },
     {
-      "id": 7,
       "name": "Car Insurance",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/car-insurance",
@@ -109,11 +117,10 @@
       },
       "projects": [],
       "format": [".csv"],
-      "date_uploaded": "2024-08-10",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-08-10",
+      "updated_at": "2024-08-10"
     },
     {
-      "id": 8,
       "name": "Community Crime Statistics",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/community-crime-statistics",
@@ -133,11 +140,10 @@
         }
       ],
       "format": [".csv"],
-      "date_uploaded": "2024-08-10",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-08-10",
+      "updated_at": "2024-08-10"
     },
     {
-      "id": 9,
       "name": "Cost of Living Index by Country",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/cost-of-living-index-by-country",
@@ -157,11 +163,10 @@
         }
       ],
       "format": [".csv"],
-      "date_uploaded": "2024-08-06",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-08-06",
+      "updated_at": "2024-08-06"
     },
     {
-      "id": 10,
       "name": "Credit Scores",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/credit-scores",
@@ -173,11 +178,10 @@
       },
       "projects": [],
       "format": [".csv"],
-      "date_uploaded": "2024-08-09",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
     },
     {
-      "id": 11,
       "name": "Customer Behaviour",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/customer-behaviour",
@@ -189,11 +193,10 @@
       },
       "projects": [],
       "format": [".csv"],
-      "date_uploaded": "2024-08-10",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-08-10",
+      "updated_at": "2024-08-10"
     },
     {
-      "id": 12,
       "name": "Delhi Climate Weather",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/daily-climate-weather",
@@ -205,11 +208,10 @@
       },
       "projects": [],
       "format": [".csv"],
-      "date_uploaded": "2024-08-09",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
     },
     {
-      "id": 13,
       "name": "Delhi Metro Operations",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/delhi-metro-operations",
@@ -221,11 +223,10 @@
       },
       "projects": [],
       "format": [".csv"],
-      "date_uploaded": "2024-08-10",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-08-10",
+      "updated_at": "2024-08-10"
     },
     {
-      "id": 14,
       "name": "Delivery Orders",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/delivery-orders",
@@ -237,11 +238,10 @@
       },
       "projects": [],
       "format": [".csv"],
-      "date_uploaded": "2024-08-10",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-08-10",
+      "updated_at": "2024-08-10"
     },
     {
-      "id": 15,
       "name": "Demand and Supply",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/demand-and-supply",
@@ -253,11 +253,10 @@
       },
       "projects": [],
       "format": [".csv"],
-      "date_uploaded": "2024-07-03",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-07-03",
+      "updated_at": "2024-07-03"
     },
     {
-      "id": 16,
       "name": "Dengue Cases Region Based",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/dengue-cases-region-based",
@@ -277,8 +276,603 @@
         }
       ],
       "format": [".csv"],
-      "date_uploaded": "2024-08-15",
-      "uploaded_by": [{ "name": "Cogxen" }, { "name": "Noey" }]
+      "uploaded_at": "2024-08-15",
+      "updated_at": "2024-08-15"
+    },
+    {
+      "name": "Drivers and Riders",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/drivers-riders",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-10",
+      "updated_at": "2024-08-10"
+    },
+    {
+      "name": "MAGIC Gamma Telescope",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/fcc-magic",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "UCI ML Repository",
+        "link": "https://archive.ics.uci.edu/datasets/"
+      },
+      "projects": [
+        {
+          "name": "FCC MAGIC Gamma Telescope",
+          "link": "https://github.com/cogxen/notebooks/blob/main/fcc-magic/report.ipynb",
+          "contributors": [
+            { "name": "@noeyislearning", "link": "https://www.linkedin.com/in/noeyislearning/" }
+          ]
+        }
+      ],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-01",
+      "updated_at": "2024-08-01"
+    },
+    {
+      "name": "FIFA World Cup Tournament",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/fifa-world-cup-tournament",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Codecademy",
+        "link": "https://www.codecademy.com/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-01",
+      "updated_at": "2024-08-01"
+    },
+    {
+      "name": "Food Orders New Delhi",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/food-orders-new-delhi",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
+    },
+    {
+      "name": "Gastric Cancer",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/gastric-cancer",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/"
+      },
+      "projects": [
+        {
+          "name": "Gastric Cancer Prediction",
+          "link": "https://github.com/cogxen/notebooks/blob/main/gastric-cancer-prediction/report.ipynb",
+          "contributors": [
+            { "name": "@noeyislearning", "link": "https://www.linkedin.com/in/noeyislearning/" }
+          ]
+        }
+      ],
+      "format": [".xlxs"],
+      "uploaded_at": "2024-08-11",
+      "updated_at": "2024-08-11"
+    },
+    {
+      "name": "Global Stock Price",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/global-stock-price",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/"
+      },
+      "projects": [
+        {
+          "name": "Global Stock Price",
+          "link": "https://github.com/cogxen/notebooks/blob/main/global-stock-price/report.ipynb",
+          "contributors": [
+            { "name": "@noeyislearning", "link": "https://www.linkedin.com/in/noeyislearning/" }
+          ]
+        }
+      ],
+      "format": [".csv"],
+      "uploaded_at": "2024-05-20",
+      "updated_at": "2024-05-20"
+    },
+    {
+      "name": "Impact of COVID-19",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/impact-of-covid-19",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
+    },
+    {
+      "name": "Instagram Reach (Aman)",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/instagram-reach-aman",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
+    },
+    {
+      "name": "IPL 2024 RCB vs. DC",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/ipl-2024-rcb-vs-dc",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-07-02",
+      "updated_at": "2024-07-02"
+    },
+    {
+      "name": "Job Nakuri",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/job-nakuri",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
+    },
+    {
+      "name": "LinkedIn Reviews",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/linkedin-reviews",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
+    },
+    {
+      "name": "Loan Application",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/loan-application",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
+    },
+    {
+      "name": "AB Test Clicks",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/lunartech",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Lunartech",
+        "link": "https://lunartech.ai/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
+    },
+    {
+      "name": "Market Size of EVs",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/market-size-of-evs",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [
+        {
+          "name": "Electric Vehicle Market Size Analysis",
+          "link": "https://github.com/cogxen/notebooks/blob/main/ev-market-size/report.ipynb",
+          "contributors": [
+            { "name": "@noeyislearning", "link": "https://www.linkedin.com/in/noeyislearning/" }
+          ]
+        }
+      ],
+      "format": [".csv"],
+      "uploaded_at": "2024-05-13",
+      "updated_at": "2024-05-13"
+    },
+    {
+      "name": "Metro Network",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/metro-network",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".dat"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
+    },
+    {
+      "name": "Movie Rating",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/movie-rating",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
+    },
+    {
+      "name": "Order Superstore Details",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/order-superstore-details",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-10",
+      "updated_at": "2024-08-10"
+    },
+    {
+      "name": "Prices",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/price-optimization",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-07-31",
+      "updated_at": "2024-07-31"
+    },
+    {
+      "name": "Product Demand Inventory",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/product-demand-inventory",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-10",
+      "updated_at": "2024-08-10"
+    },
+    {
+      "name": "Product Performance",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/product-performance",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
+    },
+    {
+      "name": "Real Estate Prices",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/real-estate-prices",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
+    },
+    {
+      "name": "GDP Growth Rate",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/gdp-growth-rate",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-07-31",
+      "updated_at": "2024-07-31"
+    },
+    {
+      "name": "Rental Properties",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/rental-properties",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-10",
+      "updated_at": "2024-08-10"
+    },
+    {
+      "name": "Retail Transactions",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/retail-transactions",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
+    },
+    {
+      "name": "Riding Sharing Demand Data",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/ride-sharing-demand-data",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
+    },
+    {
+      "name": "Stock Market Portfolio",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/stock-market-portfolio",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-07-31",
+      "updated_at": "2024-07-31"
+    },
+    {
+      "name": "Stock Market via Yahoo Finance",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/stock-market-via-yahoo-finance",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
+    },
+    {
+      "name": "Stock Market",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/stock-market",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-07-03",
+      "updated_at": "2024-07-03"
+    },
+    {
+      "name": "Stock Price History",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/stock-price-history",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-07-03",
+      "updated_at": "2024-07-03"
+    },
+    {
+      "name": "Student Performance",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/student-performance",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/"
+      },
+      "projects": [
+        {
+          "name": "Factors Influencing High School Students' Academic Performance",
+          "link": "https://github.com/cogxen/notebooks/blob/main/students-academic-performance/report.ipynb",
+          "contributors": [
+            { "name": "@noeyislearning", "link": "https://www.linkedin.com/in/noeyislearning/" }
+          ]
+        }
+      ],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-08",
+      "updated_at": "2024-08-08"
+    },
+    {
+      "name": "T20 World Cup 2022",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/t20-world-cup-2022",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-07-31",
+      "updated_at": "2024-07-31"
+    },
+    {
+      "name": "Trip Advisor Restaurants",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/trip-advisor-restaurants",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-10",
+      "updated_at": "2024-08-10"
+    },
+    {
+      "name": "UK GDP per Month",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/uk-gdp-per-month",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-10",
+      "updated_at": "2024-08-10"
+    },
+    {
+      "name": "UK Gender Pay Gap 2018-2023",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/uk-gender-pay-gap-2018-2023",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statista",
+        "link": "https://www.statista.com/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-10",
+      "updated_at": "2024-08-10"
+    },
+    {
+      "name": "User Profiles Demographics",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/user-profiles-demographics",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-9",
+      "updated_at": "2024-08-9"
+    },
+    {
+      "name": "Website Performance",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/uk-gender-pay-gap-2018-2023",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-05-13",
+      "updated_at": "2024-05-13"
+    },
+    {
+      "name": "YouTube Spam Collection",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/youtube-spam-collection",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Statso",
+        "link": "https://statso.io/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-09",
+      "updated_at": "2024-08-09"
     }
   ]
 }

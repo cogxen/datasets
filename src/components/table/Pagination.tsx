@@ -1,5 +1,6 @@
 import React from "react"
 import { Table } from "@tanstack/react-table"
+import RowsPerPageSelector from "./RowsPerPageSelector"
 
 interface PaginationProps<T> {
   table: Table<T>
@@ -8,6 +9,9 @@ interface PaginationProps<T> {
 const Pagination = <T,>({ table }: PaginationProps<T>) => {
   return (
     <div className="flex text-xs items-center justify-between mt-4">
+      <div className="flex flex-row items-center gap-2">
+        <RowsPerPageSelector table={table} />
+      </div>
       <span>
         Page {table.getState().pagination.pageIndex + 1} of {table.getPageCount()}
       </span>

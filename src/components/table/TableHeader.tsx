@@ -13,13 +13,17 @@ const TableHeader = <T,>({ headerGroup }: TableHeaderProps<T>) => {
         <th
           key={header.id}
           className={`px-6 py-3 text-xs font-medium text-slate-900 uppercase tracking-wider cursor-pointer ${
-            header.column.id === "date_uploaded" ? "text-right" : "text-left"
+            header.column.id === "uploaded_at" || header.column.id === "updated_at"
+              ? "text-right"
+              : "text-left"
           }`}
           onClick={header.column.getToggleSortingHandler()}
         >
           <div
             className={`flex flex-row items-center gap-2 ${
-              header.column.id === "date_uploaded" ? "justify-end" : ""
+              header.column.id === "uploaded_at" || header.column.id === "updated_at"
+                ? "justify-end"
+                : ""
             }`}
           >
             {header.isPlaceholder
@@ -28,7 +32,7 @@ const TableHeader = <T,>({ headerGroup }: TableHeaderProps<T>) => {
               ? header.column.columnDef.header(header.getContext())
               : header.column.columnDef.header}
             {header.column.getIsSorted() ? (
-              header.column.id === "date_uploaded" ? (
+              header.column.id === "uploaded_at" || header.column.id === "updated_at" ? (
                 header.column.getIsSorted() === "asc" ? (
                   <CalendarArrowUp className="h-4 w-4 text-slate-900" />
                 ) : (
@@ -39,7 +43,7 @@ const TableHeader = <T,>({ headerGroup }: TableHeaderProps<T>) => {
               ) : (
                 <ArrowDownAZ className="h-4 w-4 text-slate-900" />
               )
-            ) : header.column.id === "date_uploaded" ? (
+            ) : header.column.id === "uploaded_at" || header.column.id === "updated_at" ? (
               <CalendarArrowDown className="h-4 w-4 text-slate-500" />
             ) : (
               <ArrowDownAZ className="h-4 w-4 text-slate-500" />
