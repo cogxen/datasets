@@ -43,18 +43,18 @@ const columns: ColumnDef<Data>[] = [
     header: "Projects",
   },
   {
-    accessorKey: "uploaded_by",
-    header: "Uploaded By",
+    accessorKey: "uploaded_at",
+    header: "Date Uploaded",
   },
   {
-    accessorKey: "date_uploaded",
-    header: "Date Uploaded",
+    accessorKey: "updated_at",
+    header: "Date Updated",
   },
 ]
 
 export default function DatasetsTable() {
   const [searchInput, setSearchInput] = useState("")
-  const [sorting, setSorting] = useState<SortingState>([{ id: "date_uploaded", desc: true }])
+  const [sorting, setSorting] = useState<SortingState>([{ id: "uploaded_at", desc: true }])
   const [pagination, setPagination] = useState({
     pageIndex: 0,
     pageSize: 15,
@@ -64,9 +64,12 @@ export default function DatasetsTable() {
 
   const filteredData = useMemo(() => {
     return datasetsData.datasets.filter((row: Data) =>
-      Object.values(row).some((value) =>
-        String(value).toLowerCase().includes(debouncedSearchInput.toLowerCase()),
-      ),
+      Object.keys(row).some((key) => {
+        if (key === "uploaded_at") return false
+        return String(row[key as keyof Data])
+          .toLowerCase()
+          .includes(debouncedSearchInput.toLowerCase())
+      }),
     )
   }, [debouncedSearchInput])
 

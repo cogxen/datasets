@@ -17,8 +17,6 @@ export type Data = {
       link: string
     }[]
   }[]
-  date_uploaded: string
-  uploaded_by: {
-    name: string
-  }[]
+  uploaded_at: string
+  updated_at: string
 }
