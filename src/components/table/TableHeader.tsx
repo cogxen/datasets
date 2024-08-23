@@ -1,6 +1,6 @@
 import React from "react"
 import { HeaderGroup } from "@tanstack/react-table"
-import { ArrowDownAZ, ArrowUpAZ, CalendarArrowDown, CalendarArrowUp } from "lucide-react"
+import { ArrowDownAZ, ArrowUpAZ, CalendarArrowDown, CalendarArrowUp, Info } from "lucide-react"
 
 interface TableHeaderProps<T> {
   headerGroup: HeaderGroup<T>
@@ -47,6 +47,16 @@ const TableHeader = <T,>({ headerGroup }: TableHeaderProps<T>) => {
               <CalendarArrowDown className="h-4 w-4 text-slate-500" />
             ) : (
               <ArrowDownAZ className="h-4 w-4 text-slate-500" />
+            )}
+            {(header.column.id === "uploaded_at" || header.column.id === "updated_at") && (
+              <div className="relative group">
+                <Info className="h-4 w-4 text-slate-500 cursor-pointer" />
+                <div className="absolute bottom-full mb-2 hidden w-32 p-2 text-[10px] font-thin text-white bg-slate-700 rounded group-hover:block">
+                  {header.column.id === "uploaded_at"
+                    ? "Date when the dataset was uploaded to the repository"
+                    : "Date when the dataset was last updated in the repository"}
+                </div>
+              </div>
             )}
           </div>
         </th>
