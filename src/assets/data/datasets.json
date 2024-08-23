@@ -1,6 +1,21 @@
 {
   "datasets": [
     {
+      "name": "YouTube Comments and Video Stats",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/youtube-comments-video-stats",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "DataCamp",
+        "link": "https://www.datacamp.com/"
+      },
+      "projects": [],
+      "format": [".csv", ".xlxs"],
+      "uploaded_at": "2024-08-23",
+      "updated_at": "2024-08-23"
+    },
+    {
       "name": "Paris Olympics 2024",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/olympics-2024-paris",
