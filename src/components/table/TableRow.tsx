@@ -100,7 +100,7 @@ const TableRow = <T,>({ row }: TableRowProps<T>) => {
         {row.getVisibleCells().map((cell) => (
           <td
             key={cell.id}
-            className={`px-6 py-2 whitespace-nowrap text-xs text-slate-900 ${
+            className={`px-6 py-2 whitespace-nowrap text-xs text-slate-900 w-32 ${
               cell.column.id === "uploaded_at" || cell.column.id === "updated_at"
                 ? "text-right"
                 : "text-left"
