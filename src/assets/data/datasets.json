@@ -10,7 +10,15 @@
         "name": "Kaggle",
         "link": "https://www.kaggle.com/"
       },
-      "projects": [],
+      "projects": [
+        {
+          "name": "Customer Churn Prediction using Neural Network",
+          "link": "https://github.com/cogxen/notebooks/blob/main/customer-churn-prediction-using-neural-network/report.ipynb",
+          "contributors": [
+            { "name": "@noeyislearning", "link": "https://www.linkedin.com/in/noeyislearning/" }
+          ]
+        }
+      ],
       "format": [".csv"],
       "uploaded_at": "2024-08-24",
       "updated_at": "2024-08-24"
