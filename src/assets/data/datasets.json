@@ -1,6 +1,21 @@
 {
   "datasets": [
     {
+      "name": "Bank Customer Churn",
+      "url": {
+        "link": "https://github.com/cogxen/databank/tree/main/bank-customer-churn",
+        "platform": "GitHub"
+      },
+      "data_source": {
+        "name": "Kaggle",
+        "link": "https://www.kaggle.com/"
+      },
+      "projects": [],
+      "format": [".csv"],
+      "uploaded_at": "2024-08-24",
+      "updated_at": "2024-08-24"
+    },
+    {
       "name": "YouTube Comments and Video Stats",
       "url": {
         "link": "https://github.com/cogxen/databank/tree/main/youtube-comments-video-stats",
@@ -10,7 +25,15 @@
         "name": "DataCamp",
         "link": "https://www.datacamp.com/"
       },
-      "projects": [],
+      "projects": [
+        {
+          "name": "YouTube Comments and Video Stats",
+          "link": "https://github.com/cogxen/notebooks/blob/main/youtube-comments-video-stats/report.ipynb",
+          "contributors": [
+            { "name": "@noeyislearning", "link": "https://www.linkedin.com/in/noeyislearning/" }
+          ]
+        }
+      ],
       "format": [".csv", ".xlxs"],
       "uploaded_at": "2024-08-23",
       "updated_at": "2024-08-23"
